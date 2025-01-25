@@ -14,139 +14,139 @@
 
 \begin{document}
 \begin{frame}[plain]
-	\tikz[remember picture,overlay]{
-		\path (current page.south west) node[anchor=south west, inner sep=0] {
-			\includegraphics[height=8mm]{Dauphine-Noir.png}
-		};
-		\path (current page.south east) node[anchor=south east, inner sep=0] {
-			\includegraphics[height=1cm]{LAMSADE95.jpg}
-		};
-		\path (current page.south) ++ (0, 4em) node[anchor=south, inner sep=0] {
-			\scriptsize\textcolor{blue}{\url{https://github.com/oliviercailloux/restaurative}}
-		};
-	}
-	\titlepage
+  \tikz[remember picture,overlay]{
+    \path (current page.south west) node[anchor=south west, inner sep=0] {
+      \includegraphics[height=8mm]{Dauphine-Noir.png}
+    };
+    \path (current page.south east) node[anchor=south east, inner sep=0] {
+      \includegraphics[height=1cm]{LAMSADE95.jpg}
+    };
+    \path (current page.south) ++ (0, 4em) node[anchor=south, inner sep=0] {
+      \scriptsize\textcolor{blue}{\url{https://github.com/oliviercailloux/restaurative}}
+    };
+  }
+  \titlepage
 \end{frame}
 \addtocounter{framenumber}{-1}
 
 \begin{frame}
-	\frametitle{\translate{Outline}}
-	\tableofcontents[hideallsubsections]
+  \frametitle{\translate{Outline}}
+  \tableofcontents[hideallsubsections]
 \end{frame}
 
 \AtBeginSection{
-	\begin{frame}
-		\frametitle{\translate{Outline}}
-		\tableofcontents[currentsection, hideothersubsections]
-	\end{frame}
+  \begin{frame}
+    \frametitle{\translate{Outline}}
+    \tableofcontents[currentsection, hideothersubsections]
+  \end{frame}
 }
 
 \section{Les freins à la libération de la parole}
 \subsection{Obstacles systémiques}
 \begin{frame}
-	\frametitle{Obstacles systémiques}
-	\begin{itemize}
-		\item Poids des tabous sociaux et culturels autour des violences sexistes et sexuelles. → silence pendant des années dans la communauté de Hollow Water
-			\begin{quote}
-				\textit{"Quand on parle de violences, notamment de violences sexuelles, on parle de traumatismes, on parle de choses que finalement, on est très peu nombreux·ses à ne pas avoir vécu dans nos vies, voir dans nos enfances."} (Transcription 1.json)
-			\end{quote}
-			\begin{quote}
-				\textit{"#MeToo c'est difficile, #MeToo c'est violent, #MeToo c'est dur. Je pense que vous êtes nombreux et nombreuses ici a peut-être avoir ressenti ce que j'ai pu ressentir tout à l'heure en assistant à des conversations, des petites accélérations cardiaques un peu bizarres, des petits malaises, des petites nausées."} (Transcription 1.json)
-				\end{quote}
-			\begin{quote}
-				\textit{"Dans la communauté de Hollow Water, le silence autour des violences sexuelles était profondément enraciné dans les tabous culturels et sociaux. Ce silence a perduré pendant des années, empêchant les victimes de s'exprimer et de chercher de l'aide."} (Hollow.vtt)
-			\end{quote}
-		\item Peur des représailles ou du jugement social pour les victimes. → jugements au moment de porter plainte pour certaines minorités
-			\begin{quote}
-				\textit{"Il y a aussi un énorme facteur de peur. Il y a la peur du cyberharcèlement, il y a la peur de la réception, de la réaction de sa famille, de ses proches, de son entourage professionnel, mais aussi la peur des poursuites judiciaires et notamment des poursuites en diffamation."} (Transcription 3.txt)
-			\end{quote}
-	\end{itemize}
-	\begin{block}{Hollow Water}
-		Hollow Water est une communauté qui a vécu dans le silence pendant de nombreuses années. Ce silence a finalement été brisé, entraînant des changements et des développements significatifs au sein de la communauté.
-	\end{block}
+  \frametitle{Obstacles systémiques}
+  \begin{itemize}
+    \item Poids des tabous sociaux et culturels autour des violences sexistes et sexuelles. → silence pendant des années dans la communauté de Hollow Water
+      \begin{quote}
+        \textit{"Quand on parle de violences, notamment de violences sexuelles, on parle de traumatismes, on parle de choses que finalement, on est très peu nombreux·ses à ne pas avoir vécu dans nos vies, voir dans nos enfances."} (Transcription 1.json)
+      \end{quote}
+      \begin{quote}
+        \textit{"#MeToo c'est difficile, #MeToo c'est violent, #MeToo c'est dur. Je pense que vous êtes nombreux et nombreuses ici a peut-être avoir ressenti ce que j'ai pu ressentir tout à l'heure en assistant à des conversations, des petites accélérations cardiaques un peu bizarres, des petits malaises, des petites nausées."} (Transcription 1.json)
+        \end{quote}
+      \begin{quote}
+        \textit{"Dans la communauté de Hollow Water, le silence autour des violences sexuelles était profondément enraciné dans les tabous culturels et sociaux. Ce silence a perduré pendant des années, empêchant les victimes de s'exprimer et de chercher de l'aide."} (Hollow.vtt)
+      \end{quote}
+    \item Peur des représailles ou du jugement social pour les victimes. → jugements au moment de porter plainte pour certaines minorités
+      \begin{quote}
+        \textit{"Il y a aussi un énorme facteur de peur. Il y a la peur du cyberharcèlement, il y a la peur de la réception, de la réaction de sa famille, de ses proches, de son entourage professionnel, mais aussi la peur des poursuites judiciaires et notamment des poursuites en diffamation."} (Transcription 3.txt)
+      \end{quote}
+  \end{itemize}
+  \begin{block}{Hollow Water}
+    Hollow Water est une communauté qui a vécu dans le silence pendant de nombreuses années. Ce silence a finalement été brisé, entraînant des changements et des développements significatifs au sein de la communauté.
+  \end{block}
 \end{frame}
 
 \subsection{Limites du système judiciaire}
 \begin{frame}
-	\frametitle{Les limites du système judiciaire classique}
-	\begin{itemize}
-		\item Un processus centré sur la preuve, où la parole de la victime est souvent mise en doute.
-		\item Classements sans suite et taux de condamnation faibles : un facteur de découragement. → principes à respecter pour pouvoir condamner quelqu’un
-		\item Absence d’un dialogue direct avec l’agresseur : l’agresseur ne se remet pas en question de la même manière
-	\end{itemize}
+  \frametitle{Les limites du système judiciaire classique}
+  \begin{itemize}
+    \item Un processus centré sur la preuve, où la parole de la victime est souvent mise en doute.
+    \item Classements sans suite et taux de condamnation faibles : un facteur de découragement. → principes à respecter pour pouvoir condamner quelqu’un
+    \item Absence d’un dialogue direct avec l’agresseur : l’agresseur ne se remet pas en question de la même manière
+  \end{itemize}
 \end{frame}
 
 \subsection{Conséquences du silence}
 \begin{frame}
-	\frametitle{Conséquences du silence sur les individus et les communautés}
-	\begin{itemize}
-		\item Traumatisme prolongé pour les victimes. (cf arbre généalogique)
-		\item Transmission intergénérationnelle des violences et maintien des dynamiques dysfonctionnelles.
-	\end{itemize}
+  \frametitle{Conséquences du silence sur les individus et les communautés}
+  \begin{itemize}
+    \item Traumatisme prolongé pour les victimes. (cf arbre généalogique)
+    \item Transmission intergénérationnelle des violences et maintien des dynamiques dysfonctionnelles.
+  \end{itemize}
 \end{frame}
 
 \section{La justice restauratrice}
 \subsection{Espace de parole pour les victimes}
 \begin{frame}
-	\frametitle{Un espace de parole pour les victimes}
-	\begin{itemize}
-		\item Encouragement à s’exprimer dans un cadre sécurisé et non punitif. (cercle de parole de Hollow Water)
-		\item Reconnaissance de la souffrance par les agresseurs et la communauté. (groupe de parole → exemple des cercles de parole sur les accidents de la route)
-	\end{itemize}
+  \frametitle{Un espace de parole pour les victimes}
+  \begin{itemize}
+    \item Encouragement à s’exprimer dans un cadre sécurisé et non punitif. (cercle de parole de Hollow Water)
+    \item Reconnaissance de la souffrance par les agresseurs et la communauté. (groupe de parole → exemple des cercles de parole sur les accidents de la route)
+  \end{itemize}
 \end{frame}
 
 \subsection{Responsabilisation des auteurs}
 \begin{frame}
-	\frametitle{Responsabilisation des auteurs : un levier pour transformer les comportements}
-	\begin{itemize}
-		\item Travail sur le déni : amener les auteurs à reconnaître la gravité de leurs actes. (ex des parents dans le documentaire)
-		\item Rôle actif des agresseurs dans le processus de réparation : écouter, s’excuser, et s’engager à changer.
-	\end{itemize}
+  \frametitle{Responsabilisation des auteurs : un levier pour transformer les comportements}
+  \begin{itemize}
+    \item Travail sur le déni : amener les auteurs à reconnaître la gravité de leurs actes. (ex des parents dans le documentaire)
+    \item Rôle actif des agresseurs dans le processus de réparation : écouter, s’excuser, et s’engager à changer.
+  \end{itemize}
 \end{frame}
 
 \subsection{Implication de la communauté}
 \begin{frame}
-	\frametitle{Implication de la communauté : une réponse collective aux VSS}
-	\begin{itemize}
-		\item Sensibilisation et responsabilisation collective pour prévenir les violences.
-		\item Dynamique d’entraide : exemple de Hollow Water, où la communauté joue un rôle central dans la réhabilitation.
-	\end{itemize}
+  \frametitle{Implication de la communauté : une réponse collective aux VSS}
+  \begin{itemize}
+    \item Sensibilisation et responsabilisation collective pour prévenir les violences.
+    \item Dynamique d’entraide : exemple de Hollow Water, où la communauté joue un rôle central dans la réhabilitation.
+  \end{itemize}
 \end{frame}
 
 \section{Impacts et limites}
 \subsection{Effets positifs}
 \begin{frame}
-	\frametitle{Des effets positifs sur les victimes et la communauté}
-	\begin{itemize}
-		\item Libération progressive de la parole grâce au soutien collectif et à la reconnaissance publique. (augmentation de la prise de parole dans la communauté)
-		\item Amélioration du climat de confiance entre victimes et communauté.
-	\end{itemize}
+  \frametitle{Des effets positifs sur les victimes et la communauté}
+  \begin{itemize}
+    \item Libération progressive de la parole grâce au soutien collectif et à la reconnaissance publique. (augmentation de la prise de parole dans la communauté)
+    \item Amélioration du climat de confiance entre victimes et communauté.
+  \end{itemize}
 \end{frame}
 
 \subsection{Changement durable}
 \begin{frame}
-	\frametitle{Un modèle qui favorise le changement durable}
-	\begin{itemize}
-		\item Transformation des dynamiques de silence et de déni dans les communautés.
-		\item Réduction des récidives grâce à la responsabilisation des agresseurs.
-	\end{itemize}
+  \frametitle{Un modèle qui favorise le changement durable}
+  \begin{itemize}
+    \item Transformation des dynamiques de silence et de déni dans les communautés.
+    \item Réduction des récidives grâce à la responsabilisation des agresseurs.
+  \end{itemize}
 \end{frame}
 
 \subsection{Défis à relever}
 \begin{frame}
-	\frametitle{Des défis à relever pour généraliser la justice restaurative}
-	\begin{itemize}
-		\item Résistances culturelles et institutionnelles : l’attachement au modèle punitif.
-		\item Ressources nécessaires : temps, expertise, et engagement collectif.
-	\end{itemize}
+  \frametitle{Des défis à relever pour généraliser la justice restaurative}
+  \begin{itemize}
+    \item Résistances culturelles et institutionnelles : l’attachement au modèle punitif.
+    \item Ressources nécessaires : temps, expertise, et engagement collectif.
+  \end{itemize}
 \end{frame}
 
 \begin{frame}[plain]
-	\addtocounter{framenumber}{-1}
-	\begin{center}
-		\huge
-		\textit{Merci pour votre attention !}
-	\end{center}
+  \addtocounter{framenumber}{-1}
+  \begin{center}
+    \huge
+    \textit{Merci pour votre attention !}
+  \end{center}
 \end{frame}
 
 \end{document}
@@ -156,37 +156,37 @@
 }
 
 \begin{frame}[allowframebreaks]
-	\frametitle{\refname}
- 	\bibliography{zotero}
+  \frametitle{\refname}
+   \bibliography{zotero}
 \end{frame}
 
 \clearpage\pdfbookmark{License}{License}
 \begin{frame}[plain]
-	\frametitle{License}
-	This presentation, and the associated \LaTeX{} code, are published under the \href{https://opensource.org/licenses/MIT}{MIT license}. Feel free to reuse (parts of) the presentation, under condition that you cite the author.
-	
-	Credits are to be given to \hrefblue{https://www.lamsade.dauphine.fr/~ocailloux/}{Olivier Cailloux}, Université Paris-Dauphine.
+  \frametitle{License}
+  This presentation, and the associated \LaTeX{} code, are published under the \href{https://opensource.org/licenses/MIT}{MIT license}. Feel free to reuse (parts of) the presentation, under condition that you cite the author.
+  
+  Credits are to be given to \hrefblue{https://www.lamsade.dauphine.fr/~ocailloux/}{Olivier Cailloux}, Université Paris-Dauphine.
 \end{frame}
 \addtocounter{framenumber}{-1}
 \end{document}
 
 \begin{frame}
-	\frametitle{Title}
-	\begin{itemize}
-		\item Item
-	\end{itemize}
+  \frametitle{Title}
+  \begin{itemize}
+    \item Item
+  \end{itemize}
 \end{frame}
 
 \begin{frame}
-	\frametitle{Title}
-	\begin{block}{Block}
+  \frametitle{Title}
+  \begin{block}{Block}
 %		\setlength\abovedisplayskip{1 ex}% reduce space above equations
-		\begin{itemize}
-			\item Item
-		\end{itemize}
-	\end{block}
-	\begin{itemize}
-		\item Item
-	\end{itemize}
+    \begin{itemize}
+      \item Item
+    \end{itemize}
+  \end{block}
+  \begin{itemize}
+    \item Item
+  \end{itemize}
 \end{frame}
 
