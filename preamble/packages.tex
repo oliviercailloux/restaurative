@@ -92,9 +92,9 @@
 \ifboolexpr{ togl {LCpres} or togl {LCfrench} }{
 		\usepackage{babel}
 %https://tex.stackexchange.com/questions/162137/loading-microtype-before-or-after-the-font
-		\usepackage[babel]{microtype}
+		% \usepackage[babel]{microtype}
     % To avoid warning with Overleaf or PLM (https://tex.stackexchange.com/questions/711943/how-to-properly-apply-microtype-footnote-patch-in-an-overleaf-compiled-document)
-		% \usepackage[babel, nopatch=footnote]{microtype}
+		\usepackage[babel, nopatch=footnote]{microtype}
 	}{
 		\usepackage{microtype}
 	}
