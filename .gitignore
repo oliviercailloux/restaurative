@@ -14,4 +14,7 @@
 *.toc
 *.vrb
 
+*.mp4
+*.vtt
+
 .olauth
